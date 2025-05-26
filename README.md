@@ -1,4 +1,4 @@
-## Praktek Menggunakan Arduino
+### Praktek Menggunakan Arduino
 
 #  iMcLab.ino
 Sketch Arduino ini mendemonstrasikan dasar-dasar pengendalian arah dan kecepatan motor DC menggunakan PWM. 
