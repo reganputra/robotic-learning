@@ -18,3 +18,6 @@ Dirancang untuk digunakan dalam eksperimen robotika dan kontrol proses, mengguna
 
 ## MQTT-Based Temperature Control Sketch
 Sketch ini dirancang untuk sistem pengendalian suhu dengan kemampuan pemantauan dan pengendalian jarak jauh berbasis MQTT.
+
+## bnu.ino
+Merupakan kode robot bnu, kode ini digunakan untuk mengendalikan robot beroda dua dengan papan Arduino. Sistem ini mengatur pin kontrol untuk motor kiri dan kanan, serta menggunakan teknik PWM (Pulse Width Modulation) untuk mengontrol kecepatan motor. Robot menerima perintah berupa angka melalui komunikasi serial, di mana angka '1' membuat robot bergerak maju, '2' untuk belok kanan, '3' untuk belok kiri, '4' untuk mundur, dan '0' untuk berhenti. Setiap perintah akan mengatur nyala dan arah motor serta kecepatan rotasinya sesuai nilai PWM yang diberikan. Dengan cara ini, robot dapat bergerak ke berbagai arah atau berhenti berdasarkan perintah sederhana dari pengguna.
